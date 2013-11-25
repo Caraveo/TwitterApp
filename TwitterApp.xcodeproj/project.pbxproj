@@ -22,6 +22,9 @@
 		9CC27CB01842955A00B85BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC27C8F1842955A00B85BD0 /* UIKit.framework */; };
 		9CC27CB81842955A00B85BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CC27CB61842955A00B85BD0 /* InfoPlist.strings */; };
 		9CC27CBA1842955A00B85BD0 /* TwitterAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC27CB91842955A00B85BD0 /* TwitterAppTests.m */; };
+		9CC27CC41842976600B85BD0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC27CC31842976600B85BD0 /* Accounts.framework */; };
+		9CC27CC61842976B00B85BD0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC27CC51842976B00B85BD0 /* Social.framework */; };
+		9CC27CCB1842995C00B85BD0 /* TwitterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC27CCA1842995C00B85BD0 /* TwitterCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		9CC27CB51842955A00B85BD0 /* TwitterAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterAppTests-Info.plist"; sourceTree = "<group>"; };
 		9CC27CB71842955A00B85BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CC27CB91842955A00B85BD0 /* TwitterAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterAppTests.m; sourceTree = "<group>"; };
+		9CC27CC31842976600B85BD0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		9CC27CC51842976B00B85BD0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9CC27CC91842995C00B85BD0 /* TwitterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterCell.h; sourceTree = "<group>"; };
+		9CC27CCA1842995C00B85BD0 /* TwitterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC27CC61842976B00B85BD0 /* Social.framework in Frameworks */,
+				9CC27CC41842976600B85BD0 /* Accounts.framework in Frameworks */,
 				9CC27C8E1842955A00B85BD0 /* CoreGraphics.framework in Frameworks */,
 				9CC27C901842955A00B85BD0 /* UIKit.framework in Frameworks */,
 				9CC27C8C1842955A00B85BD0 /* Foundation.framework in Frameworks */,
@@ -104,6 +113,8 @@
 		9CC27C8A1842955A00B85BD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CC27CC51842976B00B85BD0 /* Social.framework */,
+				9CC27CC31842976600B85BD0 /* Accounts.framework */,
 				9CC27C8B1842955A00B85BD0 /* Foundation.framework */,
 				9CC27C8D1842955A00B85BD0 /* CoreGraphics.framework */,
 				9CC27C8F1842955A00B85BD0 /* UIKit.framework */,
@@ -124,6 +135,8 @@
 				9CC27CA41842955A00B85BD0 /* SecondViewController.m */,
 				9CC27CA61842955A00B85BD0 /* Images.xcassets */,
 				9CC27C921842955A00B85BD0 /* Supporting Files */,
+				9CC27CC91842995C00B85BD0 /* TwitterCell.h */,
+				9CC27CCA1842995C00B85BD0 /* TwitterCell.m */,
 			);
 			path = TwitterApp;
 			sourceTree = "<group>";
@@ -254,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC27CCB1842995C00B85BD0 /* TwitterCell.m in Sources */,
 				9CC27CA51842955A00B85BD0 /* SecondViewController.m in Sources */,
 				9CC27C9C1842955A00B85BD0 /* AppDelegate.m in Sources */,
 				9CC27CA21842955A00B85BD0 /* FirstViewController.m in Sources */,
