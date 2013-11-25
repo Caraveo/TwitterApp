@@ -25,6 +25,7 @@
 		9CC27CC41842976600B85BD0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC27CC31842976600B85BD0 /* Accounts.framework */; };
 		9CC27CC61842976B00B85BD0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC27CC51842976B00B85BD0 /* Social.framework */; };
 		9CC27CCB1842995C00B85BD0 /* TwitterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC27CCA1842995C00B85BD0 /* TwitterCell.m */; };
+		CE709CB61842F43C00EF26FA /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE709CB51842F43C00EF26FA /* Twitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		9CC27CC51842976B00B85BD0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		9CC27CC91842995C00B85BD0 /* TwitterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterCell.h; sourceTree = "<group>"; };
 		9CC27CCA1842995C00B85BD0 /* TwitterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCell.m; sourceTree = "<group>"; };
+		CE709CB41842F43C00EF26FA /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		CE709CB51842F43C00EF26FA /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				9CC27C921842955A00B85BD0 /* Supporting Files */,
 				9CC27CC91842995C00B85BD0 /* TwitterCell.h */,
 				9CC27CCA1842995C00B85BD0 /* TwitterCell.m */,
+				CE709CB41842F43C00EF26FA /* Twitter.h */,
+				CE709CB51842F43C00EF26FA /* Twitter.m */,
 			);
 			path = TwitterApp;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				9CC27CCB1842995C00B85BD0 /* TwitterCell.m in Sources */,
 				9CC27CA51842955A00B85BD0 /* SecondViewController.m in Sources */,
 				9CC27C9C1842955A00B85BD0 /* AppDelegate.m in Sources */,
+				CE709CB61842F43C00EF26FA /* Twitter.m in Sources */,
 				9CC27CA21842955A00B85BD0 /* FirstViewController.m in Sources */,
 				9CC27C981842955A00B85BD0 /* main.m in Sources */,
 			);
@@ -480,6 +486,7 @@
 				9CC27CBF1842955A00B85BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC27CC01842955A00B85BD0 /* Build configuration list for PBXNativeTarget "TwitterAppTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +495,7 @@
 				9CC27CC21842955A00B85BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
