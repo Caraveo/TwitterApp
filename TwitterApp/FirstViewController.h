@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Accounts/Accounts.h>
-#import <Social/Social.h>
 #import "TwitterCell.h"
+#import "Twitter.h"
 
-@interface FirstViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface FirstViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, TwitterDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *twitterTableView;
 @property NSArray *rawData;
 @property UIImage *image;
